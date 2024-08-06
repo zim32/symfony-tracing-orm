@@ -1,7 +1,7 @@
 {
   "name": "zim32/symfony-tracing-orm",
   "type": "symfony-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Symfony OpenTelemetry integration for Doctrine",
   "keywords": ["opentelemetry", "tracing", "bundle", "symfony", "doctrine", "orm"],
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.0",
     "zim32/symfony-tracing-core": "*",
     "doctrine/dbal": "3.8.*",
     "symfony/dependency-injection": "7.1.* | 6.4.*",
