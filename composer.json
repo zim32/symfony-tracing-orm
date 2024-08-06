@@ -1,0 +1,27 @@
+{
+  "name": "zim32/symfony-tracing-orm",
+  "type": "symfony-bundle",
+  "version": "1.0.0",
+  "description": "Symfony OpenTelemetry integration for Doctrine",
+  "keywords": ["opentelemetry", "tracing", "bundle", "symfony", "doctrine", "orm"],
+  "authors": [
+    {
+      "name": "Yurij Uvarov",
+      "email": "yurij.uvarov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "zim32/symfony-tracing-core": "*",
+    "doctrine/dbal": "3.8.*",
+    "symfony/dependency-injection": "7.1.* | 6.4.*",
+    "symfony/config": "7.1.* | 6.4.*",
+    "symfony/service-contracts": "3.5.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Zim\\SymfonyOrmTracingBundle\\": "src/"
+    }
+  }
+}
